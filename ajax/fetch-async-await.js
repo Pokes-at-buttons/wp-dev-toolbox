@@ -8,10 +8,10 @@ async function submitDateWindow() {
     formData.append('action', 'renderSavedLines');
     formData.append('from_date', fromDate);
     formData.append('to_date', toDate);
-    formData.append('nonce', mtsLocalize.ajax_nonce);
+    formData.append('nonce', Localize.ajax_nonce);
 
     try {
-        const response = await fetch(mtsLocalize.ajax_url, {
+        const response = await fetch(Localize.ajax_url, {
             method: 'POST',
             credentials: 'same-origin',
             body: formData,

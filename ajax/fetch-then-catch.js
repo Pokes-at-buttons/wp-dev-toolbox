@@ -10,7 +10,7 @@ document.getElementById('date-window-submit').addEventListener('click', function
     formData.append('action', 'renderSavedLines');
     formData.append('from_date', fromDate);
     formData.append('to_date', toDate);
-    formData.append('nonce', mtsLocalize.ajax_nonce);
+    formData.append('nonce', Localize.ajax_nonce);
 
     fetch(mtsLocalize.ajax_url, {
         method: 'POST',

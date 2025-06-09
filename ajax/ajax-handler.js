@@ -6,13 +6,13 @@ $('#date-window-submit').on('click', function (e) {
     var toDate = $('#to-date').val();
 
     $.ajax({
-        url: mtsLocalize.ajax_url,
+        url: Localize.ajax_url,
         type: 'POST',
         data: {
             action: 'renderSavedLines',
             from_date: fromDate,
             to_date: toDate,
-            nonce: mtsLocalize.ajax_nonce
+            nonce: Localize.ajax_nonce
         },
         success: function (response) {
             $('#everything').html(response);
