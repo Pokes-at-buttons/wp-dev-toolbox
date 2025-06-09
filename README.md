@@ -3,15 +3,15 @@
 A personal collection of reusable code snippets and patterns for working with WordPress — especially custom plugins and AJAX-heavy admin tools. Shared for reference and reuse, but mostly reuse... get ya own code ya varmint. JK. Use away.
 
 ## 📂 Structure
-
-wp-dev-toolbox/
-├── ajax/
-│   ├── jquery-ajax-example.js         # Classic jQuery AJAX (WP-safe)
-│   ├── fetch-then-catch.js            # Modern fetch() pattern
-│   ├── fetch-async-await.js           # Modern async/await AJAX
-│   ├── ajax-handler.js                # Compact fetch() helper function
-│   └── wp-ajax-handler.php            # Server-side PHP handler example
-
+```
+wp-dev-toolbox/  
+├── ajax/  
+│   ├── jquery-ajax-example.js         # Classic jQuery AJAX (WP-safe)  
+│   ├── fetch-then-catch.js            # Modern fetch() pattern  
+│   ├── fetch-async-await.js           # Modern async/await AJAX  
+│   ├── ajax-handler.js                # Compact fetch() helper function  
+│   └── wp-ajax-handler.php            # Server-side PHP handler example  
+```
 
 ## 🚀 How to Use
 
