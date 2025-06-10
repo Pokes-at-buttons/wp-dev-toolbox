@@ -23,7 +23,7 @@ wp-dev-toolbox/
 ## 🚀 How to Use
 
 - These are not production libraries — just practical snippets you can paste or adapt
-- All JS examples assume `ajaxurl` or `mtsLocalize.ajax_url` has been localized by WordPress
+- All JS examples assume `ajaxurl` or `Localize.ajax_url` has been localized by WordPress
 - PHP examples can go in `functions.php`, a plugin, or standalone scripts
 - SQL snippets work in phpMyAdmin or CLI
 
