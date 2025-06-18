@@ -12,7 +12,7 @@ document.getElementById('date-window-submit').addEventListener('click', function
     formData.append('to_date', toDate);
     formData.append('nonce', Localize.ajax_nonce);
 
-    fetch(mtsLocalize.ajax_url, {
+    fetch(Localize.ajax_url, {
         method: 'POST',
         credentials: 'same-origin',
         body: formData,
